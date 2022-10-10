@@ -1,0 +1,66 @@
+<div class="banner">
+       <div class="left-column">
+            <h1>BURGER</h1>
+            <h3>BURGER</h3>
+            <p>BURGER</p>
+                <div class="btn">
+                    <button type="button" class="bcolor">VIEW SAMPLE</button>
+                </div>
+           </div>
+                <div class="right-column">
+                    <img src="https://scontent.fkul10-1.fna.fbcdn.net/v/t1.6435-9/86639102_1420706884754954_8319925150745100288_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=ogYQ4E_R9w8AX-UZqYC&_nc_ht=scontent.fkul10-1.fna&oh=00_AT-cekaI23O2iyW84OytyeYR9JhzgtFj2x_eub1giIh5UQ&oe=6354A5B5">
+                </div>   
+
+
+
+   </div>
+
+
+
+
+.banner{
+  display: flex;
+  margin-top:70px;
+}
+
+.left-column , .right-column{
+  flex-basis: 50%;
+}
+
+.right-column img{
+  width: 100%;
+  
+
+}
+
+.left-column h1{
+  color: black;
+  margin: 50px;
+}
+
+.left-column h3{
+  color: black;
+  margin: 50px;
+}
+
+.left-column p{
+  font-size: 15px;
+  color: black;
+  margin: 50px;
+}
+
+.btn button{
+  padding: 7px 40px;
+  margin-right: 25px;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: black;
+  background: transparent;
+  border: 1px solid #FF5733; 
+}
+
+.btn .bcolor{
+  background: #1E2E81;
+  color: #8395EE;
+}
